@@ -1,0 +1,75 @@
+.Header {
+    position: relative;
+    height: 783px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Navigation {
+    padding: 23px 40px 0px 40px;
+}
+
+.Navigation,
+.Title {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    z-index: 1;
+}
+
+.Title-Image {
+    max-width: 1200px;
+    overflow: hidden;
+    border-radius: 20px;
+    img {
+        display: block;
+        object-fit: cover;
+    }
+}
+
+.Menu {
+    display: flex;
+}
+
+.Image-block {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+}
+
+.Navigation-block {
+    display: flex;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        gap: 16px;
+        li {
+            color: var(--white-color);
+        }
+    }
+}
+
+.Title {
+    margin: 100px 0px 0px 40px;
+}
+
+.Title-Paragraph {
+    font-size: 63px;
+    color: var(--white-color);
+    margin-bottom: 36px;
+}
+
+.Title-Link {
+    padding: 15px 56px;
+    background-color: #1f1e1e;
+    color: var(--white-color);
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Image-block2 ul {
+        flex-direction: column;
+    }
+}

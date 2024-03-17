@@ -1,0 +1,10 @@
+footer {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    img {
+        object-fit: cover;
+        display: block;
+        width: 100%;
+    }
+}
